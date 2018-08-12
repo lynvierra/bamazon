@@ -1,8 +1,3 @@
-// @author: Thomas Thompson
-// @github: tomtom28
-// @comment: Homework 12 - Bamazon SQL and Node app
-
-
 // My custom function to clean/pad the sql output table
 function padText(titleText, entryText){
   
