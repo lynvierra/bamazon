@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/tomtom28/Bamazon.git"
+    "url": "git+https://github.com/lynvierra/Bamazon.git"
   },
-  "author": "tomtom28",
+  "author": "lynvierra",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/tomtom28/Bamazon/issues"
+    "url": "https://github.com/lynvierra/Bamazon/issues"
   },
-  "homepage": "https://github.com/tomtom28/Bamazon#readme",
+  "homepage": "https://github.com/lynvierra/Bamazon#readme",
   "dependencies": {
     "mysql": "^2.11.1",
     "prompt": "^1.0.0"

@@ -1,4 +1,3 @@
--- Database Creation
 CREATE DATABASE Bamazon;
 
 USE Bamazon;
@@ -13,7 +12,6 @@ DepartmentName VARCHAR(30),
 Price DOUBLE(10,2),
 StockQuantity INTEGER);
 
--- Seed Items into Database
 INSERT INTO Products(ProductName, DepartmentName, Price, StockQuantity)
 VALUES ("Eggs", "grocery", 1.99, 12),
   ("Milk", "grocery", 2.99, 24),
@@ -41,14 +39,12 @@ DepartmentName VARCHAR(30),
 OverHeadCosts DOUBLE(10,2),
 TotalSales DOUBLE(10,2));
 
--- Seed Departments into Database
 INSERT INTO Departments(DepartmentName, OverHeadCosts, TotalSales)
-VALUES ("grocery", 10500.00, -10000.00), -- More fun stuff (refunds for days!) ;)
+VALUES ("grocery", 10500.00, -10000.00), 
   ("electronics", 25000.00, 0.00),
   ("sporting goods", 15000.00, 0.00),
   ("books", 5000.00, 0.00),
   ("dvds", 20000.00, 0.00),
   ("music", 7500.00, 0.00);
 
--- View Database Entries
--- SELECT * FROM Departments;
+
